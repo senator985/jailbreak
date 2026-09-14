@@ -7,11 +7,13 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="header-container">
+<div class="header-card">
     <img src="assets/logo.svg" alt="گیمنت ماریو Logo" class="brand-logo">
     <h1 class="brand-title">گیمنت ماریو</h1>
     <div class="contact-info">تلفن تماس: 09130018195</div>
 </div>
+
+<div class="content-card">
 <script>
 history.replaceState(null,null,'index.html');var histlength=history.length;history.go(-histlength);
 function DLProgress(e){Percent=(Math.round(e.loaded / e.total * 100));window.msgs.innerHTML="Installing Offline Cache: " + Percent + "%";}
@@ -25,5 +27,6 @@ window.applicationCache.onerror=function(e){window.msgs.innerHTML="Error Install
 <hr>
 <br>
 <h1 id="msgs" class="status-msg">Starting Cache Installation...</h1>
+</div>
 </body>
 </html>
